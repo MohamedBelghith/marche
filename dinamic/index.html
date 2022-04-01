@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>marché</title>
+    <link rel="stylesheet" href="./css.css">
+    <script src="https://use.fontawesome.com/5743dea065.js"></script>
+</head>
+<body>
+   <div class="page">
+    <header>
+        <div class="entet">
+            <h1>Réan robot</h1>
+            <h2>panier</h2>
+            <span id="total_piece" >0</span>
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <h2>prix total</h2>
+            <span id="total_prix" >0</span>
+            <i class="fa fa-usd" aria-hidden="true"></i>
+        </div>
+    </header>
+    
+    <div class="box1" id="p1">
+     <span>
+        <i class="fa fa-thumbs-o-up clic" id="jaime" onclick="like()" aria-hidden="true"></i>
+     </span>
+     
+     <span class="clic" onclick="remove()" ><i  class="fa fa-thumbs-o-down" aria-hidden="true"></i></span>
+     <img src="https://static.generation-robots.com/16599-large_default/bras-robotique-edo-6dof.jpg" alt="img_bra">
+     <h1>Bras robotique e.Do 6DoF</h1>
+     <span>ajouter au panier</span>
+ 
+     <span  class="clic" onclick="ajout()">+</span>
+     <span id="incrment">0</span>
+     <span class="clic"  onclick="diminue()">-</span>
+ 
+     <span id="total_paiment">0</span>
+     <i class="fa fa-usd" aria-hidden="true"></i>
+    </div>
+ </body>
+ 
+ <div class="box2" id="p2">
+     <span>
+         <i class="fa fa-thumbs-o-up clic" id="jaime2" onclick="like2()" aria-hidden="true"></i>
+     </span>
+     
+     <span class="clic" onclick="remove2()" ><i  class="fa fa-thumbs-o-down" aria-hidden="true"></i></span>
+     <img src="https://media.wired.com/photos/623cd76e57d4f7aedf2dbf66/master/pass/minicheetah_stand2-science.jpg" alt="img_robo">
+     <h1>Robot-T06</h1>
+     <span>ajouter au panier</span>
+ 
+     <span  class="clic" onclick="ajout2()">+</span>
+     <span id="incrment2">0</span>
+     <span class="clic"  onclick="diminue2()">-</span>
+ 
+     <span id="total_paiment2">0</span>
+     <i class="fa fa-usd" aria-hidden="true"></i>
+    </div>
+ </body>
+ 
+ <div class="box3" id="p3">
+     <span>
+         <i class="fa fa-thumbs-o-up clic" id="jaime3" onclick="like3()" aria-hidden="true"></i>
+     </span>
+     
+     <span class="clic" onclick="remove3()" ><i  class="fa fa-thumbs-o-down" aria-hidden="true"></i></span>
+     <img src="https://www.01net.com/i/0/0/11c/bb8cac3f8d839669593070d89751f.jpg" alt="img_robo">
+     <h1>Humanoïde Atlas</h1>
+     <span>ajouter au panier</span>
+ 
+     <span  class="clic" onclick="ajout3()">+</span>
+     <span id="incrment3">0</span>
+     <span class="clic"  onclick="diminue3()">-</span>
+ 
+     <span id="total_paiment3">0</span>
+     <i class="fa fa-usd" aria-hidden="true"></i>
+    </div>
+   </div> 
+   
+</body>
+
+<script src="./js.js"></script>
+
+</html>
